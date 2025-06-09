@@ -1,4 +1,5 @@
 # pi-NAS-Meter (c. 2020)
+![vlkd9bO](https://github.com/user-attachments/assets/680efa4e-fba7-4526-ad42-e2cb0cdefccf)
 
 A simple I2C LCD Raspberry Pi display for NAS statistics
 
