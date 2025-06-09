@@ -29,3 +29,4 @@ The crux of this little project is to have a simple display to place on your des
 
 The I2C LCD driver was sourced from this page: https://gist.github.com/DenisFromHR/cc863375a6e19dce359d
 
+**You should specify your own shares, folders, and credentials at line 12 of the main .py script.**
