@@ -1,4 +1,4 @@
-# pi-NAS-Meter
+# pi-NAS-Meter (c. 2020)
 
 A simple I2C LCD Raspberry Pi display for NAS statistics
 
@@ -25,4 +25,6 @@ Prerequisites:
 -----------------------------------------------------------------------------
 
 The crux of this little project is to have a simple display to place on your desk, in your computer chassis, or in some manner of rackmounted form factor that will cycle through your network shares and show usage statistics. I should note that this project makes use of hardcoded credentials in plaintext: this is generally a TERRIBLE ideal and should be avoided. My mitigation measures were in using a service account whose access was limited on the NAS itself, such that if the password were compromised it could only be used, inside the firewall, to traverse a directory structure but NOT to read any files.
+
+The I2C LCD driver was sourced from this page: https://gist.github.com/DenisFromHR/cc863375a6e19dce359d
 
